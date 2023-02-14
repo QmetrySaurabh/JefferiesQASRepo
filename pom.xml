@@ -192,10 +192,10 @@
 	<artifactId>qmetry-test-management-maven-plugin</artifactId>
 	<configuration>
 		<url>https://testmanagement.qmetry.com/</url>
-		<apikey>T0cEQJ1G5r8ztbyH4lsPI9IvWe3yV3moPpgQ375v</apikey>
+		<apikey>KlSjWlpZXTNtxgAFs3oS1S6P8ey10LvbOEYgCYhD</apikey>
 		<filepath>${test.results.dir}/${run.time}/testng-results.xml</filepath>
 		<format>testng/xml</format>
-		<project>NFS</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
+		<project>ACME CORP</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
 		<automationHierarchy>1</automationHierarchy>
 		<testsuiteName>Demo Test suite</testsuiteName>
 		<tsFolderPath>ACME CORP/Track1</tsFolderPath>
