@@ -19,4 +19,4 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/testng-results.xml'
-    goals: 'package'
+    goals: 'clean test'
