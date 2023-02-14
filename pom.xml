@@ -23,13 +23,14 @@
 	</properties>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>qmetry-test-management-maven-plugin-mvn-repo</id>
-			<name>QMetry Test Manager Maven Repository</name>
-			<url>https://raw.github.com/qmetry/qmetry-test-management-maven-plugin/mvn-repo/</url>
-			<releases>
-			   <enabled>true</enabled>
-			   <updatePolicy>always</updatePolicy>
-			</releases>
+			
+		<id>qmetry-test-management-maven-plugin-mvn-repo</id>
+		<url>https://raw.github.com/qmetry/qmetry-test-management-maven-plugin/mvn-repo/</url>
+		<snapshots>
+			<enabled>true</enabled>
+			<updatePolicy>always</updatePolicy>
+		</snapshots>
+	
 		 </pluginRepository>
 	</pluginRepositories>
 	<repositories>
