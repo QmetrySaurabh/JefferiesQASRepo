@@ -186,6 +186,28 @@
                     </properties>
                 </configuration>
             </plugin>
+	<plugin>
+	<groupId>com.qmetry</groupId>
+	<artifactId>qmetry-test-management-maven-plugin</artifactId>
+	<configuration>
+		<url>https://testmanagement.qmetry.com/</url>
+		<apikey>T0cEQJ1G5r8ztbyH4lsPI9IvWe3yV3moPpgQ375v</apikey>
+		<filepath>test-results\</filepath>
+		<format>qas/json</format>
+		<project>NFS</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
+		<automationHierarchy>1</automationHierarchy>
+		<testsuiteName>Demo Test suite</testsuiteName>
+		<tsFolderPath>ACME CORP/Track1</tsFolderPath>
+		<release>Demo Release</release>
+		<cycle>Demo Cycle</cycle>
+		<build>Demo Build</build>
+		<platform>Demo Platform</platform>
+		<testcaseFields>{"description":"Automated Test case","testCaseType":"Security","testCaseState":"Rejected","component":["x"],"priority":"Blocker","testcaseOwner":"Jack","estimatedTime":"143","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testcaseFields>
+		<testsuiteFields>{"description":"Automated Test suite","testsuiteOwner":"Jack","testSuiteState":"New","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testsuiteFields>
+		<skipWarning>0</skipWarning> <!-- Pass: 0/1 -->
+		<isMatchingRequired>true</isMatchingRequired> <!-- Pass: true/false -->
+	</configuration>
+</plugin>
 		</plugins>
 	</build>
 </project>
