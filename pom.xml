@@ -193,7 +193,7 @@
 	<configuration>
 		<url>https://testmanagement.qmetry.com/</url>
 		<apikey>T0cEQJ1G5r8ztbyH4lsPI9IvWe3yV3moPpgQ375v</apikey>
-		<filepath>/test-results/testng-results.xml</filepath>
+		<filepath>/home/vsts/work/1/s/test-results/</filepath>
 		<format>testng/xml</format>
 		<project>NFS</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
 		<automationHierarchy>1</automationHierarchy>
