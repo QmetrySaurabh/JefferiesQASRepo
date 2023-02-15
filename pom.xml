@@ -152,6 +152,8 @@
 		<skipWarning>0</skipWarning> <!-- Pass: 0/1 -->
 		<isMatchingRequired>true</isMatchingRequired> <!-- Pass: true/false -->
 	</configuration>
+					<executions><execution><phase>test</phase><goals><goal>uploadresults</goal></goals></execution></executions>
+
 </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
